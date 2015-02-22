@@ -1,0 +1,29 @@
+{
+  "name": "webpack-configuration",
+  "version": "0.0.1",
+  "description": "Webpack configuration helper",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theasta/webpack-configuration.git"
+  },
+  "author": "Alexandrine Boissière",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "2.4.1",
+    "extract-text-webpack-plugin": "0.3.8",
+    "version-retrieval-webpack-plugin": "0.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.5.3"
+  },
+  "peerDependencies": {
+    "jsx-loader": "^0.12.2",
+    "react-hot-loader": "^1.1.1",
+    "react-router-proxy-loader": "^0.2.0",
+    "webpack": "^1.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
