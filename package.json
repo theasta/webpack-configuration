@@ -1,8 +1,7 @@
 {
   "name": "webpack-configuration",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack configuration helper",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/theasta/webpack-configuration.git"
