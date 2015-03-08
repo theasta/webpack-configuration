@@ -14,7 +14,7 @@ var _ = require('lodash');
 module.exports = function (baseConfig, options) {
 
   var defaultConfig = {
-    module: { loaders: {} },
+    module: { loaders: [] },
     resolve: { extensions: ["", ".webpack.js", ".web.js", ".js"] },
     output: {}
   };
