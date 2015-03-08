@@ -15,7 +15,7 @@ module.exports = function (baseConfig, options) {
 
   var defaultConfig = {
     module: { loaders: {} },
-    resolve: {},
+    resolve: { extensions: ["", ".webpack.js", ".web.js", ".js"] },
     output: {}
   };
 
