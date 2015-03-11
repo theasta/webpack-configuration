@@ -16,14 +16,6 @@
   "devDependencies": {
     "webpack": "^1.5.3"
   },
-  "peerDependencies": {
-    "css-loader": "^0.9.1",
-    "jsx-loader": "^0.12.2",
-    "react-hot-loader": "^1.1.1",
-    "react-router-proxy-loader": "^0.2.0",
-    "style-loader": "^0.8.3",
-    "webpack": "^1.4.2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
