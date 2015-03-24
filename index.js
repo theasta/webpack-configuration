@@ -93,7 +93,8 @@ module.exports = function (baseConfig, options) {
       }
     );
   } else {
-    extraLoaders.push({ test: styleRegExp, loader: stylesLoader.unshift(styleLoader).join("!") });
+    stylesLoader.unshift(styleLoader);
+    extraLoaders.push({ test: styleRegExp, loader: stylesLoader.join("!") });
   }
 
   // do more than config.debug
